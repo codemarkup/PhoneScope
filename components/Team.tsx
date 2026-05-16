@@ -2,10 +2,10 @@
 import { useEffect, useRef } from "react";
 
 const members = [
-  { initial: "A", name: "Team Member 1", role: "Data Collection", grad: "#0F0E0C" },
-  { initial: "B", name: "Team Member 2", role: "Statistical Analysis", grad: "#0F0E0C" },
-  { initial: "C", name: "Team Member 3", role: "Data Visualization", grad: "#0F0E0C" },
-  { initial: "D", name: "Team Member 4", role: "Presentation", grad: "#0F0E0C" },
+  { initial: "S", name: "Saad Mehmood", grad: "#0F0E0C" },
+  { initial: "H", name: "Haseeb Amir", grad: "#0F0E0C" },
+  { initial: "N", name: "Nouman Ataullah", grad: "#0F0E0C" },
+  { initial: "H", name: "Haroon Baig", grad: "#0F0E0C" },
 ];
 
 export default function Team() {
@@ -41,7 +41,6 @@ export default function Team() {
               <span className="serif" style={{ fontSize: "1.6rem", fontWeight: 600, color: "white" }}>{m.initial}</span>
             </div>
             <div className="serif" style={{ fontSize: "1.05rem", fontWeight: 600, color: "#0F0E0C", marginBottom: 4 }}>{m.name}</div>
-            <div className="mono" style={{ fontSize: "0.7rem", color: "#A09D99", letterSpacing: "0.06em", textTransform: "uppercase" }}>{m.role}</div>
           </div>
         ))}
       </div>
