@@ -136,6 +136,8 @@ body::after {
 }
 
 @media (max-width: 1024px) {
+  body { cursor: auto; }
+  .cursor, .cursor-ring { display: none !important; }
   .grid-3, .grid-4 { grid-template-columns: repeat(2, 1fr); }
   .grid-reg { grid-template-columns: 1fr; }
   .section-pad, .hero-pad { padding-left: 40px; padding-right: 40px; }
